@@ -13,4 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+    }
 }
