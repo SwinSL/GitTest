@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void finalize() throws Throwable {
-        print(Hlello);
+        super.finalize();
+        super.finalize();
     }
 }
